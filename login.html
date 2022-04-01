@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/cd2d18a745.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main.css">
+
+    <style>
+      
+
+        *{
+    font-family: WhitneySSm,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body{
+    background-color: rgb(253,237,242);
+}
+        #form-detail{
+            width: 30%;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+        }
+        #password{
+            width: 90%;
+            
+            height: 30px;
+            margin-top: 30px;
+        }
+        #instruction{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 4px;
+            margin-top: 8px;
+        }
+        #instruction>div{
+            background-color: rgb(244,244,245);
+            
+            height: 30px;
+
+        }
+        #instruction>div>h6{
+            margin-top: 6px;
+            margin-left: 13px;
+            color: lightgray;
+        }
+        #email{
+            margin-top: 20px;
+            width: 90%;
+            height: 30px;
+        }
+        #name{
+            margin-top: 30px;
+            width: 90%;
+            height: 30px;
+        }
+        #female{
+            margin-top: 20px;
+        }
+        #male{
+            margin-top: 20px;
+        }
+        #fem{
+            margin-top: 15px;
+        }
+        #mal{
+            margin-top: 15px;
+        }
+        #number{
+            margin-top: 30px;
+            width: 90%;
+            height: 30px; 
+        }
+        #alternate{
+            margin-top: 30px;
+            width: 90%;
+            height: 30px; 
+        }
+        #login{
+            margin-top: 30px;
+            width: 95%;
+            height: 40px;
+            background-color: rgb(255,62,108); 
+            border: none;
+            color: white;
+        font-weight: 600;
+
+        }
+        form{
+            margin: auto;
+        }
+        #wrong{
+
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrong">
+
+    </div>
+    <div i="navbar"></div>
+
+    <div id="form-detail">
+        <form action="">
+
+            <h3>Login</h3>
+           
+            <input id="email" type="email" placeholder="Email"><br>
+
+
+            <input id="password" type="password" placeholder="Enter Password">
+          
+
+           <button id="login" onclick="LOgin()">
+
+            Login
+           </button>
+         
+
+          
+
+    
+
+           
+        </form>
+    </div>
+</body>
+</html>
+<script src="/scripts/login.js"></script>
+
+<script type="module">
+    import navbar from "/components/main.js"
+
+    console.log(navbar)
+
+    let nav =document.getElementById("navbar")
+    nav.innerHTML=navbar()
+</script>

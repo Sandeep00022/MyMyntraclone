@@ -1,0 +1,96 @@
+*{
+    font-family: WhitneySSm,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+#filterfunc{
+    display: flex;
+    justify-content: space-between;
+}
+#container1{
+    width: 80%;
+ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    grid-gap: 15px;
+
+}
+#main{
+    display: flex;
+    gap: 10px;
+}
+
+
+#filter-box{
+    padding: 10px;
+    border: 1px solid grey;
+    height: 800px;
+}
+#filter-box>div>label{
+font-size: 13px;
+}
+#bhau2{
+    color: grey;
+    font-size: 14px;
+}
+
+
+/* #brand{
+    border: 1px solid grey;
+}
+#pricesort{
+    border: 1px solid grey;
+}
+#discount{
+    border: 1px solid grey;
+} */
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background:  palevioletred; /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+#footer{
+background-color:   rgb(250,251,252);
+}
+#footer-top{
+width: 80%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 20px;
+}
+#footer-bottom>p{
+font-size: 14px;
+color: #94969f;
+}
+#footer-top>div>p{
+color: #94969f;
+}

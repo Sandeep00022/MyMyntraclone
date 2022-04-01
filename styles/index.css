@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    font-family: WhitneySSm,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+#dealoftheday{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+cursor: pointer;
+}
+#dealoftheday>div>img{
+width: 100%;
+}
+#best-of-myntra{
+display: grid;
+grid-template-columns: repeat(8,1fr);
+grid-gap: 5px;
+cursor: pointer;
+}
+#best-of-myntra>div>img{
+width: 100%;
+}
+
+#toppicks{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+gap: 10px;
+cursor: pointer;
+}
+#toppicks>div>img{
+width: 100%;
+}
+#categories-to-bag{
+display: grid;
+grid-template-columns: repeat(8,1fr);
+cursor: pointer;
+
+}
+#categories-to-bag>div>img{
+width: 100%;
+}
+
+#deal-on-top-brand{
+display: grid;
+grid-template-columns: repeat(8,1fr);
+cursor: pointer;
+}
+#deal-on-top-brand>div>img{
+width: 100%;
+}
+#style-hottest-finds{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+cursor: pointer;
+}
+#style-hottest-finds>div>img{
+width: 100%;
+}
+#footer{
+background-color:   rgb(250,251,252);
+}
+#footer-top{
+width: 80%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 20px;
+}
+#footer-bottom>p{
+font-size: 14px;
+color: #94969f;
+}
+#footer-top>div>p{
+color: #94969f;
+}
